@@ -1,0 +1,295 @@
+#pcontacto{
+    background-image:url("/Users/José Ricardo/OneDrive/Documentos/Pruebashtml/Pasteleria/imagenes/conf.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+body{
+  padding: 0;
+  margin: 100px 0px 0px 0px;
+}
+
+.contenedor{
+  width:100%;
+  display: flex;
+  max-width: 1100px;
+  margin-left: 7%;
+
+}
+
+.carta{
+  width:100%;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0,0.2);
+  cursor:default;
+  transition: all 400ms ease;
+ 
+}
+.carta:hover{
+  box-shadow: 5px 5px 20px rgb(0,0,0,0.5);
+  transform: translateY(-2%);
+}
+.carta img{
+  width:100%;
+  height:210px;
+}
+
+.textcaja{
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.carta .textcaja p{
+  text-align: justify;
+  color: #FF9B71;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.carta .textcaja a {
+  color: #17C3B2;
+  border: 2px solid #17C3B2;
+  border-radius: 10px;
+  padding: 1% 1% 1% 1%;
+}
+.carta .textcaja a:hover {
+  background: #fff4b8;
+}
+
+#margen2 a{
+  color: #17C3B2;
+  background-color: #fff;
+  border: 2px solid #17C3B2;
+  border-radius: 10px;
+  padding: 1% 1% 1% 1%; 
+  transition: all 400ms ease; 
+}
+
+
+#margen2 a:hover {
+  background: #fff4b8;
+  box-shadow: 5px 5px 20px rgb(0,0,0,0.5);
+  transform: translateY(-2%);
+}
+
+
+
+#c1p1{
+  background-image: url("/Users/José Ricardo/OneDrive/Documentos/Pruebashtml/Pasteleria/imagenes/pasteles.jpg");
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline-block;
+  
+  }
+
+#c2p2{
+    background-color:#17C3B2;
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    overflow: hidden;
+    }
+
+#logo{
+  width: 50%;
+  height: 100px;
+  position:absolute;
+  left:0%;
+  top: 0%;
+  background-color: #FF9B71;
+}
+
+.lo{
+  height: 100px;
+  width: 100px;
+  background-image: url("/Users/José Ricardo/OneDrive/Documentos/Pruebashtml/Pasteleria/imagenes/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position:absolute;
+  margin-top: 2%;
+  margin-left: 75%;
+}
+
+
+#navega{
+  width: 50%;
+  height: 100px;
+  position:absolute;
+  left:50%;
+  top: 0%;
+  background-color: #FF9B71;;
+  text-align: center;
+}
+
+a{
+  color: white;
+  font-family: Pacifico;  
+  font-size: 30px;
+
+}
+
+#margen{
+  padding-top: 5px;
+}
+
+#margen2{
+  padding-top: 200px;
+  padding-left: 42%;
+}
+
+h1{
+    color:  #fff4b8;
+    font-family: Pacifico, 'Pacifico', sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+h2{
+  color: white;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 30px;
+  margin: 0%;
+}
+
+h3{
+    color: #17C3B2;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 40px;
+    padding-top: 0px;
+  }
+    
+
+p{
+  color: white;
+  font-size: large;
+  font-family: 'Pacifico', sans-serif;
+}
+
+.cajaform{
+  height: 670px;
+  padding-left: 40%;
+}
+
+.boton{
+  width: 300px;
+  height: 50px;
+  color: #17C3B2;
+  background-color: #fff;
+  border: 2px solid #17C3B2;
+  border-radius: 10px;
+  padding: 1% 1% 1% 1%; 
+  transition: all 400ms ease; 
+  font-size: 30px;
+}
+
+.boton:hover {
+  background: #fff4b8;
+  box-shadow: 5px 5px 20px rgb(0,0,0,0.5);
+  transform: translateY(-2%);
+}
+
+.ctexto{
+  width: 300px;
+  height: 30px;
+  color: #17C3B2;
+  background-color: #fff;
+  border: 3px solid #fff4b8;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0,0.2);
+  transition: all 400ms ease;
+  font-size: 15px;
+}
+
+.box{
+ width: 20px;
+ height: 20px;
+}
+label{
+  font-size: 20px;
+  color: #fff4b8;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Pacifico', sans-serif;
+
+}
+#h{
+  color: white;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 25px;
+  margin: 0% 65% 0% 0%;
+}
+
+.range{
+  height: 20px;
+  width: 300px;
+  background-color: #fff4b8;
+  border-radius: 50px;
+  -webkit-appearance: none;
+  cursor: grab;
+  }
+
+ #hh { 
+   font-size: 40px;
+ }
+
+
+.pas1{
+  height: 600px;
+}
+table {
+  width: 80%;
+  padding-top: 0%;
+}
+th{
+  color: #fff;
+  font-family: "Pacifico";
+  font-size: 25px;
+  border: 2px solid #fff4b8;
+  border-collapse: collapse;
+  background-color: #FF9B71;
+}
+
+td {
+  text-align: center;
+  vertical-align: top;
+  font-size: 20px;
+  border: 2px solid #fff4b8;
+  border-collapse: collapse;
+}
+
+.boton2{
+  width: 300px;
+  height: 25px;
+  color: #17C3B2;
+  background-color: #fff;
+  border: 2px solid #17C3B2;
+  border-radius: 10px;
+  padding: 1% 1% 1% 1%; 
+  transition: all 400ms ease; 
+  font-size: 30px;
+}
+
+.boton2:hover {
+  background: #fff4b8;
+  box-shadow: 5px 5px 20px rgb(0,0,0,0.5);
+  transform: translateY(-2%);
+}
+ 
+ /* 
+Color azul claro #BFDBF7
+Color tiffany #17C3B2
+Color salmon #FF9B71
+Color Rosa #DF57BC
+Color crema #fff4b8
+*/

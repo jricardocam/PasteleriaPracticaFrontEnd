@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Pasteles</title><!--Titulo de la pagina(en pestaña)-->
+ <meta charset="utf-8"> 
+ <meta name="description" content="Pasteleria">
+ <meta name="keywords" content="pastel,pasteles,fiesta"> 
+ <link rel="icon" href="Pasteleria\ima.png" type="image/png"
+ sizes="16x16"> <!--Icono de la pagina(en pestaña)-->
+ <link rel="stylesheet" href="estilos.css"> 
+ <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" type="text/css"> <!--Importar letra-->
+</head>
+
+<body>
+    <header>
+        <div id="logo"><div class="lo"></div><h1>Pedido</h1></div>
+        <div id="navega"><p id="margen"><a href="index.html">Inicio|</a>
+                         <a href="pasteles.html">Pasteles|</a>
+                         <a href="Pedidos.html">Pedidos|</a>
+                         <a href="contacto.html">Contacto</a></p></div>
+        </header>
+
+    
+    <main>
+
+        <div class="cajaform" style="background-color: #17C3B2;">
+        <form>
+
+            <label id="h" for="points">Numero de Personas</label><br>
+            <input class="range" type="range" min="10" max="200" step="10">
+            
+            <br></br>
+            
+            <label id="h" for="pan">Sabor del pan</label>
+            <br>
+            <Select class="ctexto" name="pan">
+                <option name="vainilla">Vainilla</option>
+                <option name="vainilla">Chocolate</option>
+                <option name="vainilla">Tres Leches</option>
+                <option name="vainilla">Zanahoria</option>
+                <option name="vainilla">Marmoleado</option>
+            </Select>
+            <br></br>
+
+
+            <label id="h" for="cubierta">Cubierta</label>
+            <br>
+            <label for="merengue">
+                <input class="box" id="merengue" type="radio" name="cubierta" value="merengue">
+                Merengue</label>
+            <label for="fondant">
+                <input class="box" id="fondant" type="radio" name="cubierta" value="fondant">
+                Fondant</label>
+            <label for="mermelada">
+                <input class="box" id="mermelada" type="radio" name="cubierta" value="mermelada">
+                Mermelada</label>
+                <br></br>
+
+            <label id="h" for="cubierta">Decoraciones</label>
+            <br>
+            <label  for="bengala">
+                    <input class="box" id="bengala" type="checkbox" name="decoracion" value="bengala">
+                     Bengala</label>
+            <label  for="veladenumero">
+                    <input class="box" id="veladenumero" type="checkbox" name="decoracion" value="veladenumero"> 
+                    Vela de Número</label>
+            <label for="flores">
+                    <input class="box" id="flores" type="checkbox" name="decoracion" value="flores">
+                     Flores</label><br></br>
+
+            <textarea class="ctexto">Ingresa una breve descipcion del pastel o el texto de personalizacio </textarea>
+            <br></br>
+            <input class="ctexto" type="text" name="nombre" placeholder="Nombre"><br></br>
+            <input class="ctexto" type="tel" name="telefono" placeholder="Telefono"><br></br>
+            <input class="ctexto" type="email" name="email" placeholder="Email"><br></br>
+            <input class="boton" type="submit" value="Hacer Pedido">
+
+        </form>
+        </div>
+    </main> 
+  
+</body>
+</html> 
